@@ -17,13 +17,14 @@ if(Curses_FOUND AND NOT TARGET Curses::Curses)
 endif()
 
 add_executable(ncrawler
-		main.c
-		graphics.c
-		logic.c
-		map.c
 
-		minigames/arrow.c
-		minigames/fight.c)
+		src/main.c
+		src/graphics.c
+		src/logic.c
+		src/map.c
+
+		src/minigames/arrow.c
+		src/minigames/fight.c)
 
 file(COPY
 	"${CMAKE_SOURCE_DIR}/maps"
@@ -32,6 +33,7 @@ file(COPY
 
 target_include_directories(ncrawler PRIVATE
 				        ${CMAKE_CURRENT_SOURCE_DIR}
-					${CMAKE_CURRENT_SOURCE_DIR}/minigames)
+					${CMAKE_CURRENT_SOURCE_DIR}/src
+					${CMAKE_CURRENT_SOURCE_DIR}/src/minigames)
 				    
 target_link_libraries(ncrawler PRIVATE Curses::Curses)

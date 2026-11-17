@@ -1,5 +1,7 @@
+# debug
 build
+.cache
 .gdb_history
-
-tags
 ncrawler.dSYM
+
+project.org

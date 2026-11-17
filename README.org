@@ -1,23 +1,9 @@
-* to be completed eventually
-cmake -S . -B build
-cmake --build build
+* !!! PHOTOSENSITIVITY WARNING !!!
+Just like any video game, there is a possibility that flashing lights or quick moving images could injure you if you're sensitive to that kind of thing. Additionally, due to the varied supply of graphical terminals and their various innerworkings, I can't promise that a version of the game that runs fine for me isn't a flickering mess for you.
 
-
-* TODO
-** TODO refactor graphics files into other folders
-** TODO a mouse pet that eats rats (stops mice from doing damage behid you)
-** TODO implement a hash map for entities
-How?
-Create fillable array
-How to handle duplicates?
-linked list enabled with duplicates ??? or check online
-** TODO Add a legend keybind for the map
-
-* Note
-artist-mode and whitespace-mode are great for adding graphics
-
-
-* Sources (ASCII art)
+* Sources (most of the ASCII art)
 https://www.asciiart.eu/collections
 https://asciiart.website/browse.php
 https://ascii.co.uk/art/brickwall
+
+The rest of the masterworks are by yours truly.
